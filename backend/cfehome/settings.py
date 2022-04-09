@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     #my app
     'api',
     'products',
+    'search',
 ]
 
 MIDDLEWARE = [
