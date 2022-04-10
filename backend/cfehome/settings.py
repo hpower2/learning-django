@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+    #3rd party API
+    'algoliasearch_django',
 
     #3rd party
     'rest_framework',
@@ -146,3 +147,9 @@ REST_FRAMEWORK = {
 
 }
 
+# API keys below contain actual values tied to your Algolia account
+ALGOLIA = {
+  'APPLICATION_ID': 'ZDYCWYI3EH',
+  'API_KEY': 'b6144766aa3bdca514686c10d4c7250a',
+  'INDEX_PREFIX' : 'cfe',
+}
