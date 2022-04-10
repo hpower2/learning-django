@@ -149,7 +149,7 @@ REST_FRAMEWORK = {
 
 # API keys below contain actual values tied to your Algolia account
 ALGOLIA = {
-  'APPLICATION_ID': 'ZDYCWYI3EH',
-  'API_KEY': 'b6144766aa3bdca514686c10d4c7250a',
-  'INDEX_PREFIX' : 'cfe',
+  'APPLICATION_ID': 'xx',
+  'API_KEY': 'zz',
+  'INDEX_PREFIX' : 'xx',
 }
